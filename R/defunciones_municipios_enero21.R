@@ -3,9 +3,6 @@ source("styles.R")
 
 
 
-
-
-
 #'read data-----------------------------------------------------------------------
 df_raw = import(file.path(dir_raw, "Casos_Diarios_Municipio_Defunciones_20210102.csv")) 
 
@@ -249,6 +246,7 @@ geom_point(
 
 
 plot
+
 
 filename = file.path(dir_plots, "defunciones_2enero21.png")
 
